@@ -8,8 +8,8 @@ html {
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Fira Sans', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Fira Sans", sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 1.5;
 }
 
@@ -21,4 +21,51 @@ html {
 
 body {
   margin: 0;
+}
+
+li, a {
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  color: #ed125f;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  background-color: #3b073c;
+}
+
+.logo {
+  cursor: pointer;
+  width: 50px;
+  height: auto;
+}
+
+.links {
+  list-style: none;
+}
+
+.links li {
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+.links li a:hover {
+  color: #fff;
+}
+
+.btn {
+  padding: .625rem 1.5625rem;
+  background-color: #ed125f;
+  color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #ed125f;
 }
