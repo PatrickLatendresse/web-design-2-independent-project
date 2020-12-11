@@ -179,3 +179,8 @@ input {
   position: fixed;
   list-style-type: none;
 }
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
