@@ -110,13 +110,44 @@ h3 {
   float: right;
 }
 
-.work h2, p {
+.work h2 {
+  color: #fff;
+  width: 50rem;
+  font-size: 3.125rem;
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: -1rem;
+}
+
+.work p {
   color: #fff;
   width: 50rem;
 }
 
-.work h2 {
-  font-size: 3.125rem;
-  font-family: "Fira Sans", sans-serif;
-  margin-bottom: -1rem;
+.message {
+  display: block;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.formheader {
+  text-align: center;
+  color: #3b073c;
+}
+
+.formheader p {
+  color: #3b073c;
+}
+
+input {
+  width: 100%;
+  margin: 20px 0;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid blue;
 }
