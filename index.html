@@ -9,19 +9,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="banner">
+  <ul class="skip-links">
+    <li><a href="#navigation">skip to Navigation</a></li>
+    <li><a href="#main">skip to Main</a></li>
+  </ul>
+
+  <header role="banner" class="banner">
     <img class="logo" src="images/logo.svg" alt="Logo">
-    <nav>
+    <nav role="navigation" id="navigation" tabindex="0">
       <ul class="links">
         <li><a href="file:///Users/patricklatendresse/Documents/GitHub/web-design-2-independent-project/index.html">Home</a></li>
-        <li><a href="#">Work</a></li>
+        <li><a href="file:///Users/patricklatendresse/Documents/GitHub/web-design-2-independent-project/work.html">Work</a></li>
         <li><a href="#">About</a></li>
       </ul>
     </nav>
     <a class="btn" href="file:///Users/patricklatendresse/Documents/GitHub/web-design-2-independent-project/contact.html">Contact</a>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
     <section class="intro">
       <h1>Patrick Latendresse</h1>
       <h2>Student</h2>

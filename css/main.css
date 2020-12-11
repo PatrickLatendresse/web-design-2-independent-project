@@ -95,6 +95,7 @@ h3 {
   line-height: 2;
   padding-left: 5rem;
   width: 50rem;
+  padding-bottom: 2rem;
 }
 
 .intro p {
@@ -172,4 +173,9 @@ input {
 .formbtn:hover {
   background-color: #fff;
   color: #ed125f;
+}
+
+.skip-links {
+  position: fixed;
+  list-style-type: none;
 }
