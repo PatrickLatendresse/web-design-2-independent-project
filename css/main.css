@@ -93,7 +93,8 @@ h3 {
 
 .intro {
   line-height: 2;
-  padding-left: 5rem;
+  padding-left: 10rem;
+  padding-right: 5rem;
   width: 50rem;
   padding-bottom: 2rem;
 }
@@ -105,7 +106,8 @@ h3 {
 .work {
   line-height: 2;
   text-align: right;
-  padding-right: 5rem;
+  padding-right: 10rem;
+  padding-left: 50rem;
   background-color: #3b073c;
   padding-bottom: 2rem;
   float: right;
@@ -135,6 +137,7 @@ form {
   margin-right: auto;
   text-align: left;
   padding-top: 1rem;
+  padding-bottom: 5rem;
 }
 
 .formheader {
@@ -171,16 +174,96 @@ input {
 }
 
 .formbtn:hover {
-  background-color: #fff;
+  background-color: #3b073c;
   color: #ed125f;
 }
 
 .skip-links {
-  position: fixed;
-  list-style-type: none;
+  display: none;
 }
 
 footer {
-  background-color: #000;
+  background-color: #3b073c;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  height: 20rem;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.name {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.footerbtn {
+  padding: .625rem 1.5625rem;
+  color: #fff;
+  background-color: #ed125f;
+  border: none;
+  border-radius: 1.5rem;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.footerbtn:hover {
+  background-color: #fff;
+  color: #ed125f;
+}
+
+.container {
+  height: 200px;
+  position: relative;
+  text-align: center;
+  font-size: .5rem;
+}
+
+.trademark {
   color: #fff;
 }
+
+.info {
+  line-height: 2;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  width: 50rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.info p {
+  color: #3b073c;
+}
+
+.info h2 {
+  font-size: 3.125rem;
+  font-family: "Fira Sans", sans-serif;
+  color: #3b073c;
+  margin-bottom: -1rem;
+}
+
+.signup {
+  padding-bottom: 5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". gridlogo infographic"
+    ". cuisinart infographic"
+    ". cuisinart .";
+}
+.gridlogo { grid-area: gridlogo; }
+.infographic { grid-area: infographic; }
+.cuisinart { grid-area: cuisinart; }
