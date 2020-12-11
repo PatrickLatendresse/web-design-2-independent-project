@@ -84,11 +84,39 @@ h2 {
   margin-bottom: -1rem;
 }
 
-p {
-  width: 31.25rem;
+h3 {
+  font-size: 1.5625rem;
+  font-family: Montserrat, sans-serif;
+  color: #ed125f;
+  margin-bottom: -1rem;
 }
 
 .intro {
   line-height: 2;
   padding-left: 5rem;
+  width: 50rem;
+}
+
+.intro p {
+  color: #3b073c;
+}
+
+.work {
+  line-height: 2;
+  text-align: right;
+  padding-right: 5rem;
+  background-color: #3b073c;
+  padding-bottom: 2rem;
+  float: right;
+}
+
+.work h2, p {
+  color: #fff;
+  width: 50rem;
+}
+
+.work h2 {
+  font-size: 3.125rem;
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: -1rem;
 }
