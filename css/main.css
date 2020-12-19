@@ -260,10 +260,126 @@ footer {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px 10px;
   grid-template-areas:
-    ". gridlogo infographic"
-    ". cuisinart infographic"
-    ". cuisinart .";
+    "cuisinart personallogo infographic"
+    "cuisinart . infographic"
+    "gridlogo planebanner planebanner";
 }
+
 .gridlogo { grid-area: gridlogo; }
+
 .infographic { grid-area: infographic; }
+
+.personallogo { grid-area: personallogo; }
+
 .cuisinart { grid-area: cuisinart; }
+
+.planebanner { grid-area: planebanner; }
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.cta-text {
+  max-width: 65%;
+  padding: 0 0 0 4rem;
+  flex-direction: column;
+  margin: 0 0 1em;
+}
+
+.cta-content {
+  display: flex;
+  padding-top: 2%;
+  position: absolute;
+  left: 50%;
+  justify-content: flex-start;
+  width: 100%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 700px;
+}
+
+.cta {
+  align-items: center;
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.icon {
+  width: 100%;
+  max-width: 31%;
+}
+
+.icon img {
+  margin: 0 1em;
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  font-weight: 200;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border-width: 3px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: .5em 1em;
+  display: inline-block;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .intro {
+    width: 90%;
+  }
+
+  .info {
+    width: 90%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .intro {
+    width: 35rem;
+  }
+
+  .info {
+    width: 35rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .intro {
+    width: 45rem;
+  }
+
+  .info {
+    width: 45rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .intro {
+    width: 50rem;
+  }
+
+  .info {
+    width: 50rem;
+  }
+
+}
